@@ -1,18 +1,17 @@
-package com.java;
-
-import static org.junit.Assert.*;
-
-import org.junit.Test;
-
-import com.opencsv.exceptions.CsvException;
-import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.Test;
 
 import java.io.File;
 import java.io.IOException;
 
+import org.junit.Test;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.BeforeAll;
+
+import com.java.CensusAnalyserException;
+import com.java.StateCensusAnalyser;
+import com.opencsv.exceptions.CsvException;
+
 public class StateCensusAnalyserTest {
+
 	static final String PATH = System.getProperty("user.dir");
 	static final String CSV_FILE_PATH = PATH.concat("//src//com//resources//Indian_States_Census.csv");
 	static final String INCORRECT_FILE_PATH = PATH.concat("//src//com//resources//Indian_StatesCensus.csv");
