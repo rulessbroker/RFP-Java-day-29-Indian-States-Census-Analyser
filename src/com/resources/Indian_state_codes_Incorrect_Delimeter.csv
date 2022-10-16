@@ -1,6 +1,6 @@
 Sl. No.,State/ UT,Abbreviation
 1,Andhra Pradesh,AP
-2,Arunachal Pradesh,AR
+2;Arunachal Pradesh;AR
 3,Assam,AS
 4,Bihar,BR
 5,Chhattisgarh,CG
@@ -35,4 +35,3 @@ Sl. No.,State/ UT,Abbreviation
 34,Delhi,DL
 35,Lakshadweep,LD
 36,Pondicherry,PY
-
